@@ -95,7 +95,7 @@ nav{
 }
 
 .nav-link{
-    color: #A0AEC0;
+    color: #A0AEC0 !important;
     font-size: 14.6px;
     font-weight: 500;
     font-family: 'DM Sans', sans-serif;
@@ -103,12 +103,16 @@ nav{
 }
 
 .nav-link:hover{
-    color: #3BAAFF;
+    color: #3BAAFF !important;
 }
 
 .nav-link-last{
+  font-size: 14.6px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  transition: color 0.6s ease-in;
   border: 1px solid #3BAAFF;
-  color: #3BAAFF;
+  color: #3BAAFF !important;
   padding: 8px 20px !important;
   text-decoration: none;
   border-radius: 4px;
@@ -118,7 +122,7 @@ nav{
 .nav-link-last:hover{
   background: #3BAAFF;
   border: none;
-  color: #141727;
+  color: #141727 !important;
 }
 
 .sticky{
@@ -444,7 +448,7 @@ nav{
 
 .services-box{
     width: 100%;
-    height: auto;
+    height: 310px;
     align-content: center !important;
     background: #0B1220;
     border: 1px solid rgba(99, 179, 237, 0.12);
@@ -1168,7 +1172,6 @@ footer{
     }
 
     .card-box, .services-box{
-        height: 310px;
         padding: 1.4rem;
     }
 
@@ -1225,7 +1228,6 @@ footer{
     }
 
     .card-box, .services-box{
-        height: 310px;
         padding: 2rem;
     }
 

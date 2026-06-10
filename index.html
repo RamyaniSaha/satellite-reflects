@@ -43,7 +43,7 @@
               <a class="nav-link" href="#team-sec">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-last" href="#contact-sec">Contact Us</a>
+              <a class="nav-link-last" href="#contact-sec">Contact Us</a>
             </li>
           </ul>
        </div>
@@ -556,5 +556,19 @@
 
       });
     </script>
+
+    <script>
+      $('.nav-link').click(function(e){
+
+        e.preventDefault();
+
+        let target = $(this.hash);
+
+        $('html, body').animate({
+          scrollTop: target.offset().top - 80
+        }, 100);
+      });
+    </script>
+    
 </body>
 </html>
