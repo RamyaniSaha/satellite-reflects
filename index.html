@@ -565,10 +565,23 @@
         let target = $(this.hash);
 
         $('html, body').animate({
-          scrollTop: target.offset().top - 80
+          scrollTop: target.offset().top - 100
         }, 100);
       });
     </script>
-    
+
+    <script>
+      $('.nav-link-last').click(function(e){
+
+        e.preventDefault();
+
+        let target = $(this.hash);
+
+        $('html, body').animate({
+          scrollTop: target.offset().top - 100
+        }, 100);
+      });
+    </script>
+
 </body>
 </html>
