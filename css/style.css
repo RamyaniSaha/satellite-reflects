@@ -751,15 +751,20 @@ nav{
 
 .team-tag{
     font-family: 'DM Mono', monospace;
-    font-size: 12px;
-    letter-spacing: 0.06em;
-    align-items: center;
-    color: #7b61ff;
+    font-size: 12.8px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+    color: #6248e8;
     background: rgba(123, 97, 255, 0.1);
     border: 1px solid rgba(123, 97, 255, 0.2);
     padding: 3px 10px;
     border-radius: 20px;
     overflow: hidden;
+}
+
+.sub-tags{
+    color: #7b61ff;
+    font-size: 12px;
 }
 
 .team-content3{
